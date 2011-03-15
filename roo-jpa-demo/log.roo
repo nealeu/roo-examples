@@ -1,0 +1,5 @@
+project --topLevelPackage org.opencredo.roo.jpa --projectName roo-jpa-demo --java 6
+persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT 
+entity --class ~.domain.Person
+field enum --fieldName gender --type Gender
+test mock 
