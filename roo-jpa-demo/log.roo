@@ -3,3 +3,8 @@ persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT
 entity --class ~.domain.Person
 field enum --fieldName gender --type Gender
 test mock 
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-03-15 20:29:35
+hint
+// [failed] perform tests
+// [failed] test integration --entity 
+test integration --entity ~.domain.Person
